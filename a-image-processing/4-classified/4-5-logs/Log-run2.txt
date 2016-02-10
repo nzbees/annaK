@@ -1,0 +1,62 @@
+[0x1689cf8] dummy interface: using the dummy interface module...
+[mpeg4 @ 0x7fa40401d560] removing common factors from framerate
+[mpeg4 @ 0x7fa4045e4100] removing common factors from framerate
+Loading Weka properties...
+Current classifier: hr.irb.fastRandomForest.FastRandomForest -I 50 -K 7 -S -1684379636 -threads 2
+Creating feature stack...
+Updating features of slice number 1...
+Feature stack array is now updated (1 slice(s) with 16 feature(s), took 2489ms).
+Training input:
+# of pixels selected as plant1: 124
+# of pixels selected as plant2: 51
+# of pixels selected as plant3: 72
+# of pixels selected as background: 78
+Creating training data took: 198ms
+Training classifier...
+FastRandomForest of 50 trees, each constructed while considering 7 random features.
+Out of bag error: 0.923%
+Finished training in 781ms
+Classifying whole image using 2 thread(s)...
+Classifying whole image data took: 2817ms
+Finished segmentation of whole image.
+Saving model to file...
+Saved model into /home/n/Desktop/for anna/a-image-processing/4-classified/4-4-classifiers/classifier.model
+Training input:
+# of pixels selected as plant1: 124
+# of pixels selected as plant2: 51
+# of pixels selected as plant3: 72
+# of pixels selected as background: 78
+Writing training data: 325 instances...
+Saved training data: /home/n/Desktop/for anna/a-image-processing/4-classified/4-3-data/data.arff
+Calculating probability maps...
+Classifying whole image using 2 thread(s)...
+Classifying whole image data took: 1089ms
+Finished segmentation of whole image.
+Done
+Training input:
+# of pixels selected as plant1: 124
+# of pixels selected as plant2: 127
+# of pixels selected as plant3: 72
+# of pixels selected as background: 78
+Creating training data took: 122ms
+Training classifier...
+FastRandomForest of 50 trees, each constructed while considering 7 random features.
+Out of bag error: 0.998%
+Finished training in 183ms
+Classifying whole image using 2 thread(s)...
+Classifying whole image data took: 928ms
+Finished segmentation of whole image.
+Calculating probability maps...
+Classifying whole image using 2 thread(s)...
+Classifying whole image data took: 1171ms
+Finished segmentation of whole image.
+Done
+Saving model to file...
+Saved model into /home/n/Desktop/for anna/a-image-processing/4-classified/4-4-classifiers/classifier-run2.model
+Training input:
+# of pixels selected as plant1: 124
+# of pixels selected as plant2: 127
+# of pixels selected as plant3: 72
+# of pixels selected as background: 78
+Writing training data: 401 instances...
+Saved training data: /home/n/Desktop/for anna/a-image-processing/4-classified/4-3-data/data-run2.arff
